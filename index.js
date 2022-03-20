@@ -7,7 +7,7 @@ const port = 3900;
 
 //mongoose.set('useFindAndModify', false);
 mongoose.Promise = global.Promise;
-const url = 'mongodb+srv://appVR:Amigos13@cluster0.1piwo.mongodb.net/Cluster0?retryWrites=true&w=majority';
+const url = '';
 const options = { useNewUrlParser: true};
 
 mongoose.connect(url, options).then(() => {
